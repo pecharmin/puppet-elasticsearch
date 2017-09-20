@@ -46,6 +46,7 @@ class elasticsearch::config {
         ensure  => 'directory',
         group   => '0',
         owner   => 'root',
+        mode    => '0755',
         recurse => true;
       $elasticsearch::params::homedir:
         ensure => 'directory',
