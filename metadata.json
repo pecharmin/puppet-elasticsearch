@@ -1,13 +1,13 @@
 {
-  "name": "elastic-elasticsearch",
-  "version": "5.4.3",
-  "source": "https://github.com/elastic/puppet-elasticsearch",
+  "name": "ape-elasticsearch",
+  "version": "5.4.4",
+  "source": "https://github.com/pecharmin/puppet-elasticsearch",
   "author": "elastic",
   "license": "Apache-2.0",
   "summary": "Module for managing and configuring Elasticsearch nodes",
   "description": "Module for managing and configuring Elasticsearch nodes",
-  "project_page": "https://github.com/elastic/puppet-elasticsearch",
-  "issues_url": "https://github.com/elastic/puppet-elasticsearch/issues",
+  "project_page": "https://github.com/pecharmin/puppet-elasticsearch",
+  "issues_url": "https://github.com/pecharmin/puppet-elasticsearch/issues",
   "dependencies": [
     {
       "name": "puppetlabs/apt",
